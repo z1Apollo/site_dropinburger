@@ -5,7 +5,6 @@ export const AllDisplay = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
-    height: 100vh;
     gap: 5%;
+    margin-top: 8vh;
 `

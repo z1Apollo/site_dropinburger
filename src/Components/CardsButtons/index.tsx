@@ -32,16 +32,23 @@ const StyledButton = styled.a`
     font-weight: 600;
     background-color: #e84f03;
     color: white;
-
     &:hover {
     background-color: #b43c00;
     transform: scale(1.05);
   }
+
+    @media (max-width: 1280px) {
+    width: 50vw;
+    }
+
+    @media (max-width: 768px) {
+      width: 70vw;
+    }
 `
 
 export default function Button({ text, link, icon }: ButtonProps) {
   return (
-    <StyledButton href={link} target="_blank" rel="noopener noreferrer">
+    <StyledButton href={link} rel="noopener noreferrer">
         {icon}
         {text}
     </StyledButton>
