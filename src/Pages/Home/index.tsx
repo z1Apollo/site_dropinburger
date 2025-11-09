@@ -1,6 +1,6 @@
 import { FaInstagram, FaStore, FaUtensils, FaWhatsapp } from "react-icons/fa"
 import Button, { CardBox } from "../../Components/CardsButtons"
-import logo from "../../Images/Logo.jpg"
+import logo from "../../Images/logo.jpg"
 import { Logo } from "./style"
 
 export default function Home() {
@@ -16,4 +16,5 @@ export default function Home() {
             </CardBox>
         </>
     )
+
 }
