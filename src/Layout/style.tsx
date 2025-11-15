@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const Footer = styled.footer`
-    margin-top: 25vh;
+    margin-top: 18vh;
     font-size: 2vh;
+    padding-bottom: 10px;
 
     @media (max-width: 1024px) {
         margin-top: 28vh;
@@ -21,6 +22,7 @@ export const Footer = styled.footer`
     @media (max-width: 430px) {
         margin-top: 22vh;
         font-size: 1.5vh;
+        padding-bottom: 25px;
     }
 
     @media (max-width: 380px) {
